@@ -341,7 +341,7 @@
                     <h2 class="text-center mb-4">Contact Info</h2>
                     <ul class="list-group list-group-flush lead">
                         <li class="list-group-item">
-                            <span class="fw-bold">Main Location:</span> 50 Main st Boston MA
+                            <span class="fw-bold">Main Location:</span> 557 Next React Lane. Winter Springs, FL.
                         </li>
                         <li class="list-group-item">
                             <span class="fw-bold">Enrollment Phone:</span> (407) 555-5555
@@ -358,7 +358,10 @@
                     </ul>
                 </div>
                 <div class="col-md">
-                    <div id="map"></div>
+                    <div id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.1513700015726!2d-81.2859376845003!3d28.655185982408906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e76e91ed87b0cf%3A0x5a321b4f3ef1034!2s557%20Shadow%20Glenn%20Pl%2C%20Winter%20Springs%2C%20FL%2032708!5e0!3m2!1sen!2sus!4v1623274877981!5m2!1sen!2sus"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -421,16 +424,17 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/gsap.js"></script>
-    <script>
+    <!-- <script>
         mapboxgl.accessToken =
-            'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw'
+            'https://api.mapbox.com/geocoding/v5/mapbox.places/Los%20Angeles.json?access_token=YOUR_MAPBOX_ACCESS_TOKEN'
         var map = new mapboxgl.Map({
             container: 'map',
             style: 'mapbox://styles/mapbox/streets-v11',
             center: [-71.060982, 42.35725],
             zoom: 18,
         })
-    </script>
+    </script>-->
+
 </body>
 
 </html>

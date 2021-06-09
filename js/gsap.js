@@ -1,0 +1,1 @@
+gsap.fromTo("h1", { color: "white", y: -200 }, { duration: 3, y: 0, color: "blue" })

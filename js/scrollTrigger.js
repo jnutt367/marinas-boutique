@@ -1,6 +1,14 @@
+gsap.registerPlugin(ScrollTrigger)
 
-
-let manAppear = gsap.timeline()
-
-
-.fromTo("#man", { opacity:0}, {opacity:1, duration: 5}, 7)
+let tl = gsap.timeline({
+        
+        scrollTrigger: {
+            trigger: "#learn",
+            markers: true,
+            pin: false,
+            start: "top 75%",
+            end: "bottom 45%",
+            toggleActions: "restart none none reverse"
+        }
+    })
+    .fromTo("#man ", { opacity: 0 }, { y: -20, duration: 7, ease:"elastic",opacity: 1 }, 2);

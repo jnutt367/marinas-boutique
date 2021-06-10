@@ -1,6 +1,6 @@
 gsap.fromTo("h1", { color: "white", y: -200 }, { duration: 3, y: 0, color: "aqua" })
 gsap.fromTo("#thinking-cap", { opacity: 0 }, { duration: 3, y: -150, opacity: 1 })
-gsap.to("#thinking-cap", { stroke: "silver", repeat: 3, strokeWidth: "15", fill: "black" }, 3)
+gsap.to("#thinking-cap", { stroke: "silver", strokeWidth: 2, fill: "black" }, 3)
 gsap.to("#ball1", { scale: 1.1, repeat: 2 })
 gsap.to("#ball2", { scale: 1.1, repeat: -1, duration: 1 })
 gsap.to("#ball3", { scale: 1.1, repeat: 2 })

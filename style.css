@@ -5,11 +5,11 @@ body::before {
 }
 
 a {
-    color: black;
+    color: aliceblue;
 }
 
 a:hover {
-    color: blue;
+    color: aqua;
 }
 
 #map {

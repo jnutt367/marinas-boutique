@@ -17,8 +17,16 @@ a:hover {
     height: 100%;
     border-radius: 10px;
 }
-.card {
+#frazier {
     background-image: url("img/brenden_frazier.jpeg");
+    background-size: cover;
+}
+#dench {
+    background-image: url("img/judy_dench.jpeg");
+    background-size: cover;
+}
+#williams {
+    background-image: url("img/robin_williams.jpeg");
     background-size: cover;
 }
 #up {

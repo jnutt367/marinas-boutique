@@ -46,7 +46,9 @@ a:hover {
 #up {
     color: aqua;
 }
-
+.navbar-brand {
+       font-family: cursive, fantasy, serif, sans-serif;
+}
 @media (min-width: 768px) {
     .news-input {
         width: 50%;

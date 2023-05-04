@@ -19,6 +19,7 @@ a:hover {
 }
 .card {
     background-image: url("img/brenden_frazier.jpeg");
+    background-size: cover;
 }
 #up {
     color: aqua;

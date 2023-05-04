@@ -23,14 +23,14 @@ a:hover {
 }
 .card {
     background-color: black;
-    opacity: 0.5;
+    opacity: 1;
 }
 .card:hover,
 .card:active,
 .card:focus {
-     background-color: transparent;
-     opacity: 1;
-     color: black;
+     background-color: black;
+     opacity: 0.1;
+     color: white;
 }
 #dench {
     background-image: url("img/judy_dench.jpeg");

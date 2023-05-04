@@ -33,6 +33,7 @@ a:hover {
      background-color: green;
      opacity: 0.5;
      color: white;
+     cursor: pointer;
 }
 #dench {
     background-image: url("img/judy_dench.jpeg");

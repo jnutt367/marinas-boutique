@@ -32,7 +32,7 @@ a:hover {
 .card:focus {
      background-color: green;
      opacity: 0.5;
-     color: white;
+     color: black;
      cursor: pointer;
 }
 #dench {

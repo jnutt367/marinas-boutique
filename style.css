@@ -21,6 +21,9 @@ a:hover {
     background-image: url("img/brenden_frazier.jpeg");
     background-size: cover;
 }
+.card {
+    background-color: transparent; 
+}
 #dench {
     background-image: url("img/judy_dench.jpeg");
     background-size: cover;
